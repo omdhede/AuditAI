@@ -1,0 +1,22 @@
+# Audit RAG - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# API framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.0
+python-multipart==0.0.12       # for file uploads
+
+# LangChain ecosystem
+langchain==0.3.7
+langchain-openai==0.2.9
+langchain-community==0.3.7
+
+# Vector store
+chromadb==0.5.20
+
+# PDF loading
+pypdf==5.1.0
+
+# Utilities
+python-dotenv==1.0.1
+pydantic==2.10.1
