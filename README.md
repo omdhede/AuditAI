@@ -153,5 +153,6 @@ Full interactive docs: http://localhost:8000/docs
 - "How should access management controls be designed for SOX compliance?"
 - "What control deficiencies qualify as material weaknesses?"
 
+---
 
 *Built as a portfolio project to demonstrate RAG pipeline development, LLM integration, and full-stack AI application design.*
