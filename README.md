@@ -153,24 +153,5 @@ Full interactive docs: http://localhost:8000/docs
 - "How should access management controls be designed for SOX compliance?"
 - "What control deficiencies qualify as material weaknesses?"
 
----
-
-## Resume Description (copy-paste ready)
-
-**AuditAI — RAG-Powered Policy Q&A System** | Python, LangChain, ChromaDB, FastAPI  
-Designed and deployed an end-to-end Retrieval-Augmented Generation (RAG) system enabling semantic search over IT audit policy documents (COBIT, SOX, CISA frameworks). Implemented document chunking, OpenAI vector embeddings, MMR retrieval via ChromaDB, and a conversational LangChain chain with session memory. Built a FastAPI backend with REST endpoints and a custom dark-themed frontend UI. Deployed on [Render/Railway] with public demo link.
-
----
-
-## Deployment (for portfolio link)
-
-1. Push to GitHub
-2. Create account on [Render.com](https://render.com) (free tier)
-3. New Web Service → connect GitHub repo
-4. Set environment variable: `OPENAI_API_KEY`
-5. Build command: `pip install -r requirements.txt`
-6. Start command: `uvicorn backend.main:app --host 0.0.0.0 --port $PORT`
-
----
 
 *Built as a portfolio project to demonstrate RAG pipeline development, LLM integration, and full-stack AI application design.*
